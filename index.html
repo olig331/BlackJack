@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <title>Black Jack</title>
+</head>
+<body>
+
+<div id="home">
+  
+
+    <div id="all">
+
+      <!-- BALANCE AND STAKE  -->
+      <h2 id="wallet">Balance: £100</h2>
+      <h2 id="stake">Stake: £0</h2>
+
+
+        <!-- Betting Stake BUTTONS -->
+        <button id="reset_funds">New Game</button>
+          <div id="bet_buttons">
+            <button id="five">5</button>
+            <button id="ten">10</button>
+            <button id="twenty">20</button>
+            <button id="bet">Bet</button>
+          </div>
+          <div id="notification_area">
+            <h3 id="game_text"></h3>
+          </div>
+
+          <!-- Dealers Count -->
+          <h3 id="the_dealers_score"></h3>
+
+          <!-- Dealers Container -->
+          <div id="dealer_container">
+               
+          </div>
+          <!-- END OF DEALER CONTAINER -->
+
+
+
+          <!-- Players COUNT -->
+          <h3 id="the_players_score"></h3>
+
+          <!-- Players Container -->
+          <div id="player_container">
+            
+          </div>
+          <!-- END OF PLAYER CONTAINER -->
+
+
+          <!-- ACTION BUTTONS -->
+            <div id="game_buttons">
+              <button id="hit" title="Hit!"><span class="iconify" data-icon="mdi:cards-playing-outline" data-inline="false"></span><br><span class="small">hit</span></button>
+              <button id="double" title="Double Down!"><span class="iconify" data-icon="bx:bx-coin-stack" data-inline="false"></span><span class="iconify" data-icon="bx:bx-coin-stack" data-inline="false"></span><br><span class="small">Double</span></button>
+              <button id="stand" title="Stand!"><span class="iconify" data-icon="emojione-monotone:raised-back-of-hand" data-inline="false"></span><br><span class="small">Stand</span></button>
+            </div>
+          <!-- END OF ACCTION BUTTONS -->
+
+        
+    </div>
+    <!-- FRONT PAGE PLAY BUTTON -->
+    <button id="play">Play</button> 
+</div>
+
+
+<!-- SCRIPTS -->
+<script src="./scripts/playerHand.js"></script>
+<script src="./scripts/deck.js"></script>
+<script src="./scripts/game.js"></script>
+<script src="/scripts/index.js"></script>
+<script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
+<!-- SCRIPTS -->
+</body>
+</html>
