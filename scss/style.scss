@@ -57,8 +57,7 @@ button::-moz-focus-inner
   border: 0.2px solid rgb(51, 51, 51);
   margin: 2rem auto;
   grid-template-rows: 0.27fr 0.25fr 2fr 1fr 1fr 0.25fr 2fr 1fr;
-  background-color: #243a24;
-  opacity: 0.9;
+  background-color: #243a24de;
 
     h2{
       @include flex;
@@ -209,9 +208,6 @@ button::-moz-focus-inner
       display: none;
     }
 }
-
-
-
 
 
 
